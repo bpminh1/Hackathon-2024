@@ -4,6 +4,8 @@ from argparse import ArgumentParser
 from rich.progress import track
 import pandas as pd
 
+from image_process import find_placement
+
 
 def compute_amazing_solution(
     part_image_path: Path, gripper_image_path: Path
@@ -14,8 +16,8 @@ def compute_amazing_solution(
     :param gripper_image_path: Path to the gripper image
     :return: The x, y and angle of the gripper
     """
-    
-    return 146/2, 235/2 - 20, 0
+
+    return find_placement(part_image_path, gripper_image_path)
 
 
 def main():
