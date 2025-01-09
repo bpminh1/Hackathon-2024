@@ -1,18 +1,20 @@
-# Hackathon 2024 - Submission of Group *// Group Name //*
+# Hackathon 2024 - Submission of Group *Miric*
 
 Team members:
-    - // Alice Lastname //
-    - // Bob Secondname //
-    - ...
+    - Minh Phuong Bui
+    - Cedric Styra
 
 ## Description
-// A very brief description of your solution, e.g., five sentences //
+We had two different sets of problems we wanted to solve and optimize taking the initial contraints into account: image processing and search.
+For image processing we used the OpenCV-Module for Python, to search for 'external contours' marking the edges of the part and search for 'internal contours' marking
+holes of the parts we want to avoid. With this processed image we could address the search problem using our search algorithm which minimizes the distance from the part middle and avoids falling into internal contours while staying inside the external contour - the tile. It did this by interatively moving away from the tile middle and
+trying out all possible angles 
 
 ## How to Run
-// How to run your code, e.g., `python solution/main.py path/to/input/tasks.csv output/solutions.csv` //
+python solution/main.py solution/input.csv solution/output.csv
 
 ## ... and other things you want to tell us
-// optional, e.g., design decisions, challenges you faced, etc. //
+We faced the challenges of having to use machine learning for hole detection... which we didn't. It was fun though!
 
 <img src="doc/logos-all.png" alt="Logos" width="600px" />
 
