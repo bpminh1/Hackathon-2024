@@ -1,7 +1,7 @@
 # Hackathon 2024 - Submission of Group *Miric*
 
 Team members:
-    - Minh Phuong Bui
+    - Phuong Minh Bui
     - Cedric Styra
 
 ## Description
