@@ -16,6 +16,12 @@ python solution/main.py solution/input.csv solution/output.csv
 ## ... and other things you want to tell us
 We faced the challenges of having to use machine learning for hole detection... which we didn't. It was fun though!
 
+## License
+
+All resources in this repository are licensed under the MIT License. See the [LICENSE](LICENSE) for more information.
+
+## Acknowledgements
+
 <img src="doc/logos-all.png" alt="Logos" width="600px" />
 
 This project is partially funded by the German Federal Ministry of Education and Research (BMBF) within the “The Future of Value Creation – Research on Production, Services and Work” program (funding number 02L19C150) managed by the Project Management Agency Karlsruhe (PTKA).
